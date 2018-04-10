@@ -1,0 +1,11 @@
+{{#each RatingDistribution}}
+<tr>
+    <td class="stars">{{RatingValue}} star</td>
+    <td class="range">
+        <div class="range-slider disabled" data-slider="{{Count}}">
+            <span class="range-slider-active-segment"></span>
+        </div>
+    </td>
+    <td class="total">{{Count}}</td>
+</tr>
+{{/each}}

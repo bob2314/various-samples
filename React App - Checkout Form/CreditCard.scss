@@ -1,0 +1,36 @@
+.credit-card {
+  margin-top: 1.4375rem;
+  text-align: left;
+
+  h2,
+  h3 {
+    margin-bottom: $baseline-size;
+  }
+}
+
+// Credit Card Number Input
+//
+// markup:
+// <input type="text" class="credit-card-number placeholder" placeholder="Credit Card Number*">
+//
+// sg-wrapper:
+// <div class="form-field">
+//  <div class="row">
+//    <div class="small-12 columns">
+//      <sg-wrapper-content/>
+//    </div>
+//  </div>
+// </div>
+//
+// Styleguide 3.7
+.credit-card-number {
+  background: url($cloudinary-link + '/checkout/cc_icons.png');
+  background-position: center right;
+  background-repeat: no-repeat;
+}
+
+.credit-card-number-uk {
+  background: url($cloudinary-link + '/checkout/cc-icons-uk.png');
+  background-position: center right;
+  background-repeat: no-repeat;
+}
